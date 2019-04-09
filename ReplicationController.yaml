@@ -2,6 +2,8 @@ apiVersion: v1
 kind: ReplicationController
 metadata:
   name: myapp
+  env: prod
+  ver: 0.0.1
 spec:
   replicas: <Replicas>
   selector:
